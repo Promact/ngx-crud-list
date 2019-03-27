@@ -1,0 +1,48 @@
+
+.selectionlist{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+    .mat-form-field
+    {
+        width: 94%;
+    }
+    button{
+        background: #1976d2;
+        padding: 4px!important;
+        color: #fff;
+    }
+}
+
+
+
+table{
+    width: 100%;
+}
+table{
+      padding: 5px;
+    td.edit{
+    width: 12%;
+    }
+    td.delete{
+        width: 4%;
+    }
+    td{
+        border-bottom: 1px solid #ccc;
+    }
+    .save{
+        display: inline-block;
+        padding-right: 10px;
+    }
+    .cancel{
+        display: inline-block;
+    }
+}
+
+table.crudlist{
+    button{
+        background:none;
+        padding: 0px!important;
+        color: #000;
+    }
+}
